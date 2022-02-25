@@ -1,7 +1,7 @@
 /* Author: Matteo Gianferrari
  * Data: 24/02/2022
  * Implementare la funzione che accetta come parametro un puntatore a un file aperto in modalita' testuale e deve ritornare il numero di righe
- *  del file. Un file vuoto o senza caratteri '\n' ha una riga. Non e' possibile imporre alcun vincolo sulal massima lunghezza delle righe.
+ * del file. Un file vuoto o senza caratteri '\n' ha una riga. Non e' possibile imporre alcun vincolo sulal massima lunghezza delle righe.
  */
 #include <stdio.h>
 #include "righe.h"
