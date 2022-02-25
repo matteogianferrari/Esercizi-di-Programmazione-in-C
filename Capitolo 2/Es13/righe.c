@@ -4,7 +4,6 @@
 #include <stdio.h>
 #include "righe.h"
 
-
 /* unsigned int conta_righe(FILE *f)
  * Parameters:
  * FILE *f;  puntatore a file
