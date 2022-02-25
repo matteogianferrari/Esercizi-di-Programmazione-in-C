@@ -12,7 +12,7 @@
  * Conta le righe di un file di testo
  *
  * Return:
- * numero di righe                     
+ * Numero di righe                     
  *
  * Notes:
  * Il contatore parte da 1 per contare l'ultima riga.
