@@ -5,7 +5,7 @@
  * struttura puntata da pp. Il file contenente i dati della persona e' strutturato cosi': <nome><spazio><eta'>
  */
 #include <stdio.h>
-#include "read_person.h"
+#include "readperson.h"
 
 int main(void){
 	FILE *f1, *f2;
