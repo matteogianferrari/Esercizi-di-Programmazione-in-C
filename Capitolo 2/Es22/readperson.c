@@ -2,7 +2,7 @@
  * Data: 27/02/2022
  */
 #include <stdio.h>
-#include "read_person.h"
+#include "readperson.h"
 
 /* void person_read(FILE *f, struct person *pp)
  * Parameters:
