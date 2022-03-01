@@ -1,5 +1,5 @@
 /* Author: Matteo Gianferrari
- * Data: 28/02/2022
+ * Data: 01/03/2022
  * Implementare la funzione che calcola il valore di sinh(x) utilizzando lo sviluppo 
  * di Taylor fornito. Non e' consentito l'utilizzo di librerie esterne.
  */
