@@ -16,8 +16,8 @@
  * void     
  *
  * Notes:
- * Non e' necessaria la dimensione dell'array in quanto un ciclo 
- * eseguito sulla stringa si ferma col terminatore.
+ * Non e' necessaria la dimensione dell'array in quanto un ciclo eseguito sulla stringa si ferma col
+ * terminatore, il ciclo prosegue fino a 0 perche' ogni valore sopra allo 0 in una espressione ritorna 1.
  */
 void encrypt(char *s, size_t n){
 	while(n--)
