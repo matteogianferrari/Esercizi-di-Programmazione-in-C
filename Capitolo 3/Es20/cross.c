@@ -67,5 +67,4 @@ void stampa_cross(unsigned int n){
 		putchar('\\');
 		putchar('\n');
 	}
-	
 }
