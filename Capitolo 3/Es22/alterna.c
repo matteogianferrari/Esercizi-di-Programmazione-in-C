@@ -9,7 +9,7 @@
  * Parameters:
  * const char *s1;  puntatore a stringa
  * const char *s2;  puntatore a stringa
- 
+ *
  * Purpose:
  * Alloca una stringa di dimensione s1 + s2 e ne concatena alternati il contenuto
  *
