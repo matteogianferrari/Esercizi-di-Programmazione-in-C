@@ -5,7 +5,7 @@
 #include <string.h>
 #include "stringhe.h"
 
-/* int linear_search(char *str, char c, size_t len)
+/* static int linear_search(char *str, char c, size_t len)
  * Parameters:
  * char *str;   puntatore a stringa di caratteri
  * char c;      carattere da ricercare
@@ -21,7 +21,7 @@
  * Notes:
  * Nessuna.
  */
-int linear_search(char *str, char c, size_t len){
+static int linear_search(char *str, char c, size_t len){
 	size_t i;
 			
 	for(i = 0; i < len; i++)
