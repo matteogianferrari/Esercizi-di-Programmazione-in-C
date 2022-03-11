@@ -5,7 +5,6 @@
  * lettura e l'intero contenuto, byte per byte, deve essere copiato in coda al file di output creato al'inizio. Dopo di che si chiude il file letto
  * e si passa al successivo. I nomi di file sono lunghi al massimo 255 caratteri. Se un file dell'elenco non si puo' aprire, si prosegue col successivo.
  */
-#include <stdio.h>
 #include "accoda.h"
 
 int main(void){
