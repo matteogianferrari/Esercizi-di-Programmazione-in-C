@@ -10,7 +10,7 @@
  * int n;  secondo numero
  *
  * Purpose:
- * Calcola il minimo comune divisore tra i 2 numeri forniti.
+ * Calcola il massimo comune divisore tra i 2 numeri forniti.
  
  * Return:
  * Se n == 0 ritorna m.
