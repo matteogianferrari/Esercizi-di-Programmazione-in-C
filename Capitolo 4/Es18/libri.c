@@ -5,26 +5,26 @@
 #include <stdlib.h>
 #include "libri.h"
 
-/* struct libri *read_libri(const char *filename, size_t *pn)
+/* struct libri *read_libro(const char *filename, size_t *pn)
  * Parameters:
  * const char *filename;  stringa di caratteri
  * size_t *pn;            numero di libri letti
  * 
  * Purpose:
  * Legge il file e memorizza i libri in un
- * array di struttura dati libri.
+ * array di struttura dati libro.
  * 
  * Return:
- * Puntatore ad array di struttura dati libri.
+ * Puntatore ad array di struttura dati libro.
  * 
  * Notes:
  * %[^;] indica alla funzione di prendere in considerazione
  * i caratteri fino all'occorrenza di ';' esclusa.
  */
-struct libri *read_libri(const char *filename, size_t *pn){
+struct libro *read_libri(const char *filename, size_t *pn){
 	FILE *f;
-	struct libri *arr = NULL;
-	struct libri temp;
+	struct libro *arr = NULL;
+	struct libro temp;
 	
 	*pn = 0;
 	
