@@ -8,10 +8,10 @@
 #include <stdlib.h>
 #include "libri.h"
 
-void print_libri(struct libri *arr, size_t n);
+void print_libri(struct libro *arr, size_t n);
 
 int main(void){
-	struct libri *arr;
+	struct libro *arr;
 	size_t n;
 	
 	arr = read_libri("libri1.txt", &n);
@@ -22,7 +22,7 @@ int main(void){
 	return 0;
 }
 
-void print_libri(struct libri *arr, size_t n){
+void print_libri(struct libro *arr, size_t n){
 	size_t i;
 	
 	for(i = 0; i < n; i++)
