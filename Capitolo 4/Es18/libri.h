@@ -4,12 +4,12 @@
 #ifndef __LIBRI_H__
 #define __LIBRI_H__
 
-struct libri {
+struct libro {
 	unsigned int codice;
 	char titolo[255];
 	unsigned int pagine;
 };
 
-struct libri *read_libri(const char *filename, size_t *pn);
+struct libro *read_libri(const char *filename, size_t *pn);
 
 #endif
