@@ -5,7 +5,7 @@
 #include <stdlib.h>
 #include "libri.h"
 
-/* struct libri *read_libro(const char *filename, size_t *pn)
+/* struct libro *read_libro(const char *filename, size_t *pn)
  * Parameters:
  * const char *filename;  stringa di caratteri
  * size_t *pn;            numero di libri letti
